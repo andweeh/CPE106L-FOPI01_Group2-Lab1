@@ -1,4 +1,6 @@
-inputFile = input('Enter the name of file: ')
+#input "sample.txt" as your sample file
+
+inputFile = input("Enter the name of file: ")
 lines = []
 
 with open(inputFile, 'r') as a:
@@ -6,11 +8,15 @@ with open(inputFile, 'r') as a:
         lines.append(line.strip())
         
 while True:
-    print("The file has", len(lines), "lines.")
-    if len(lines) == 1:
-        break
-    numberLine = int(input("Enter a line number. 0 to Exit: "))
-    if numberLine == 1:
-        break
-    else:
-        print(numberLine, ": ", lines[numberLine - 1])
+    try:
+        print("The file has", len(lines), "lines.")
+        if len(lines) == 1:
+            break
+        numLine = int(input("Enter a line number. 0 to Exit: "))
+        if numLine == 0:
+            break
+        else:
+            print(numLine, ": ", lines[numLine - 1])
+    except:
+        print("Error: Line number must be within the range of", len(lines))
+        
