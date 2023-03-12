@@ -15,7 +15,7 @@ def median(list):
 #Programming Problem 1 - Mode Function
 from collections import Counter
 
-def modeCalculation(numbers):
+def mode(numbers):
     frequency = Counter(numbers)
     modes = frequency.most_common()
     max_count = modes[0][1]
@@ -25,12 +25,7 @@ def modeCalculation(numbers):
             mode_list.append(mode[0])
         else:
             break
-    return min(mode_list)
-
-number_string = input("Enter a list of numbers separated by commas: ")
-number_list = [int(num) for num in number_string.split(',')]
-mode = modeCalculation(number_list)
-print("The mode of the input list is: ", mode)
+    print ("Mode:",mode_list)
 
 # Mean function, length of number list will be determined using python's inbuilt length function,
 # and the sum of all numbers will be determined using python's inbuilt sum function.
