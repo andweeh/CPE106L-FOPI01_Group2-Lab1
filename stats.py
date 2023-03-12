@@ -1,5 +1,3 @@
-#Paul Jess C. Rosero
-#PreLab - 1 Contribution
 #Programming Problem 1 - Mode Function
 from collections import Counter
 
