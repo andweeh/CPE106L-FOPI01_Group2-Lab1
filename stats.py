@@ -25,12 +25,12 @@ def mode(numbers):
             mode_list.append(mode[0])
         else:
             break
-    print ("Mode:",mode_list)
+    return mode_list
 
 # Mean function, length of number list will be determined using python's inbuilt length function,
 # and the sum of all numbers will be determined using python's inbuilt sum function.
 # Function will return calculated mean value.
-def meanCalculation(numbers):
+def mean(numbers):
     listLength = len(numbers)
     summation = sum(numbers)
     mean = summation/listLength
