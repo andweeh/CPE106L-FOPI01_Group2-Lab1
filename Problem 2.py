@@ -1,3 +1,5 @@
+#input "sample.txt" as your sample file
+
 inputFile = input("Enter the name of file: ")
 lines = []
 
