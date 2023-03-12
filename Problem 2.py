@@ -10,7 +10,7 @@ with open(inputFile, 'r') as a:
 while True:
     try:
         print("The file has", len(lines), "lines.")
-        if len(lines) == 1:
+        if len(lines) == 0:
             break
         numLine = int(input("Enter a line number. 0 to Exit: "))
         if numLine == 0:

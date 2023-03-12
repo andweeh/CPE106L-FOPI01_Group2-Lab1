@@ -1,5 +1,5 @@
-This is the sample text file 
-This is line 1
-Another new line which is known as line 2
-Is this line 3? yes, it is
-Finally, line 4 yey!
+This is the sample text file, line 1
+This is line 2
+Another new line which is known as line 3
+Is this line 4? yes, it is
+Finally, line 5 yey!
