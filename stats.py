@@ -14,6 +14,7 @@ def modeCalculation(numbers):
         else:
             break
     return min(mode_list)
+
 number_string = input("Enter a list of numbers separated by commas: ")
 number_list = [int(num) for num in number_string.split(',')]
 mode = modeCalculation(number_list)
