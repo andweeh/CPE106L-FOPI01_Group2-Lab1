@@ -1,0 +1,5 @@
+This is the sample text file 
+This is line 1
+Another new line which is known as line 2
+Is this line 3? yes, it is
+Finally, line 4 yey!
